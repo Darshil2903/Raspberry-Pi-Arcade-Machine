@@ -49,6 +49,24 @@ A large part of the project was spent making separate systems work together reli
 
 The control panel has two joysticks, six action buttons per player and a row of five function buttons.
 
+## 3D model
+
+The full cabinet as a 3D model, shown closed and open: [`cad/arcade-cabinet.glb`](cad/arcade-cabinet.glb)
+
+| Closed and open | Control deck |
+|---|---|
+| <img src="cad/render-closed-and-open.jpg" alt="3D render of the cabinet closed next to the cabinet open" width="380" /> | <img src="cad/render-control-deck.jpg" alt="3D render of the open cabinet's control deck and screen" width="380" /> |
+
+The model is built part by part, the way the cabinet was cut and assembled:
+
+- **Carcass:** 16 mm side panels, a 574 × 200 mm top panel, rear cleats and a removable rear access panel held by 10 screws
+- **Display:** a 542 × 327 mm monitor housing behind a bezel tilted 11° toward the player, with stop wedges and a lower accent trim
+- **Fold-down lid:** pivots on two hinge pins and bearings; its top has 19 control cutouts (17 buttons and 2 joysticks), and its back has a lock pocket
+- **Audio:** a speaker support with two cutouts and matching grilles
+- **Controls:** every button (cap, flange and housing) and both joysticks (ball, stem and mount) modelled individually
+
+To explore it in 3D, download the `.glb` file and open it in Blender or any glTF viewer.
+
 ## Skills used
 
 | Area | What I did |
