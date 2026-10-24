@@ -10,6 +10,10 @@
 
 ---
 
+<p align="center">
+  <img src="photos/overview.jpg" alt="The arcade cabinet closed and open" width="760" />
+</p>
+
 Most Raspberry Pi arcade builds are a Pi in a box. I wanted something you'd keep in a living room: a cabinet that **closes like a piece of furniture** and **opens to reveal a full two-player arcade** with joysticks, buttons, a screen and sound.
 
 ## The build
@@ -28,9 +32,22 @@ The cabinet was my first woodworking project. In my former high school's worksho
 - Arcade-style games inspired by classics like **Flappy Bird, Mario, Pac-Man and Space Invaders**
 - Input mapping so every game works from the physical joysticks and buttons
 - Display and sound set up so the cabinet runs standalone from its own controls
+- Runs **Recalbox**, so the cabinet also plays classic systems such as the Vectrex and Commodore Amiga
 
 ### 5. Debugging and integration
 A large part of the project was spent making separate systems work together reliably: fixing input mappings, tracing faulty hardware connections, tuning game performance and sorting out audio.
+
+## Photos
+
+| Closed | Open |
+|---|---|
+| <img src="photos/closed.jpg" alt="Cabinet closed, looking like a plain wooden cabinet with a handle" width="380" /> | <img src="photos/open.jpg" alt="Cabinet open, showing the screen and two-player control panel" width="380" /> |
+
+| Playing Vectrex MineStorm | Recalbox system menu |
+|---|---|
+| <img src="photos/playing-vectrex-minestorm.jpg" alt="Vectrex MineStorm running on the cabinet" width="380" /> | <img src="photos/recalbox-menu.jpg" alt="Recalbox menu showing the Commodore Amiga 600" width="380" /> |
+
+The control panel has two joysticks, six action buttons per player and a row of five function buttons.
 
 ## Skills used
 
